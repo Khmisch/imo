@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/white">
+    android:background="@color/black">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
                     android:gravity="center_vertical|center_horizontal"
                     android:text="3"
                     android:textSize="13sp"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
 
@@ -63,7 +63,7 @@
                     android:layout_weight="1"
                     android:layout_marginRight="10dp"
                     android:text="Khurshidbek Kurbanov"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:singleLine="true"
                     android:textSize="16sp"
                     android:textStyle="normal"/>
@@ -73,7 +73,7 @@
                     android:layout_height="wrap_content"
                     android:singleLine="true"
                     android:text="2:41 PM"
-                    android:textColor="#90000000"
+                    android:textColor="#ADD8D4D4"
                     android:textSize="14sp"/>
             </LinearLayout>
             <LinearLayout
@@ -88,14 +88,14 @@
                     android:layout_weight="1"
                     android:layout_marginRight="10dp"
                     android:text="Yeah that's sounds great"
-                    android:textColor="#90000000"
+                    android:textColor="#ADD8D4D4"
                     android:textSize="14sp"
                     android:textStyle="normal"/>
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_marginRight="16dp"
-                    android:src="@drawable/ic_microphone"/>
+                    android:src="@drawable/ic_microphone_dark"/>
 
             </LinearLayout>
         </LinearLayout>

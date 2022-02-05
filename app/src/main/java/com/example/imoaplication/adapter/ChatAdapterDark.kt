@@ -8,17 +8,18 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.imoaplication.R
 import com.example.imoaplication.fragment.ChatsFragment
+import com.example.imoaplication.fragment.ChatsFragmentDark
 import com.example.imoaplication.model.Chat
 import com.google.android.material.imageview.ShapeableImageView
 import java.util.ArrayList
 
-class ChatAdapter (var fragment: ChatsFragment, var items: ArrayList<Chat>):
+class ChatAdapterDark (var fragment: ChatsFragmentDark, var items: ArrayList<Chat>):
     RecyclerView.Adapter<RecyclerView.ViewHolder>(){
     override fun getItemCount(): Int {
         return items.size
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int):RecyclerView.ViewHolder{
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_chat_view, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_chat_view_dark, parent, false)
         return MessageViewHolder(view)
     }
 
